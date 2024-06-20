@@ -1,0 +1,145 @@
+@import './theme/variable';
+
+.lexend-medium {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lexend-light {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lexend-regular {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lexend-bold {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.main-title {
+    color: var(--main-title-color);
+}
+
+.sub-title {
+    color: var(--sub-title-color);
+    font-size: 18px;
+}
+
+.element-bg-color {
+    background-color: var(--element-bg-color);
+}
+
+.selected-element-bg-color {
+    background-color: var(--selected-element-bg-color);
+}
+
+.main-container {
+    margin: 40px;
+}
+
+hr {
+    color: var(--border-color);
+    opacity: 1;
+}
+
+
+
+.fs-14px {
+    font-size: 14px;
+}
+
+.fs-18px {
+    font-size: 18px;
+}
+
+.accordion,
+.group-size-section,
+.evaluation-section {
+    .btn {
+        height: 48px;
+    }
+
+    .accordion-button::after {
+        width: 11px;
+        height: 11px;
+        background-size: contain;
+    }
+
+    .form-check-input:checked {
+        background-color: var(--sub-title-color);
+        border: 0;
+    }
+
+    .form-check-input:checked[type=checkbox] {
+        background-size: 60%;
+        --bs-form-check-bg-image: url("data:image/svg+xml,%3Csvg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.99986 8.27514L1.29065 5.56593C1.01171 5.28699 0.559444 5.28699 0.280499 5.56593C0.00155258 5.84488 0.00155258 6.29714 0.280499 6.57609L3.49478 9.79037C3.77373 10.0693 4.22599 10.0693 4.50494 9.79037L12.3621 1.93323C12.641 1.65428 12.641 1.20202 12.3621 0.923077C12.0831 0.644131 11.6309 0.644131 11.3519 0.923077L3.99986 8.27514Z' fill='white'/%3E%3C/svg%3E%0A");
+    }
+}
+
+.card-section {
+    .card.widget-card.border {
+        border-color: var(--border-color);
+    }
+}
+
+.tags-section {
+    .btn {
+        background-color: #f4f5f7;
+        color: var(--main-title-color);
+        padding: 6px 16px;
+        line-height: 1;
+    }
+
+    .btn.selected {
+        background-color: var(--sub-title-color);
+        color: #ffffff;
+    }
+}
+
+.switch-section {
+    img {
+        height: 18px;
+    }
+
+    .form-switch {
+        border-radius: 12px;
+
+        .form-check-input {
+            font-size: 19px;
+            background-color: #8C8C9A;
+            --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28255, 255, 255, 1%29'/%3e%3c/svg%3e")
+        }
+
+        .form-check-input:checked[type=checkbox] {
+            background-color: var(--sub-title-color);
+        }
+    }
+}
+
+
+.action-btn {
+    padding: 36px 0px 20px;
+
+    .btn {
+        height: 48px;
+    }
+
+    .save-btn {
+        background-color: var(--sub-title-color);
+        color: #ffffff;
+        border: 4px #C8C0F8 solid;
+    }
+}
